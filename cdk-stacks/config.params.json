@@ -1,0 +1,27 @@
+{
+    "CdkAppName": "EmailOneClickUnsubscribe",
+    "CdkBackendStack": "EmailOneClickUnsubscribe",
+    "hierarchy": "/EmailOneClickUnsubscribe/",
+    "parameters": [
+        {
+            "name": "sesAccountLevelSuppressionEnabled",
+            "cliFormat": "ses-account-level-suppression-enabled",
+            "description": "If you the One Click Unsubscribe to add the user to the SES Account Level Suppression List.  Set to false if you want to subscribe to the SNS Unsubscribe topic and handle the unsubscribe yourself.",
+            "defaultValue": true,
+            "required": true,
+            "boolean": true
+        },
+        {
+            "name": "companyWebsite",
+            "description": "The website to render for HTTP Get requests to the Unsubscribe endpoint.",
+            "cliFormat": "company-website",
+            "defaultValue": "",
+            "required": true
+        }
+    ],
+    "tags": {
+        "project": "Email One Click Unsubscribe starter project",
+        "os-code-source": "https://github.com/aws-samples/email-one-click-unsubscribe"
+    }
+
+}
