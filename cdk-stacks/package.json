@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-ssm": "^3.624.0",
-    "aws-cdk-lib": "^2.146.0",
+    "aws-cdk-lib": "^2.177.0",
     "cfn-response": "^1.0.1",
     "source-map-support": "^0.5.21"
   }
